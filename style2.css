@@ -1,0 +1,319 @@
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Jersey 10", sans-serif;
+}
+
+body{
+        overflow-x: hidden;
+}
+
+h1 {
+        /* color: #00657e; */
+        color: #5a89c5;
+}
+
+h4 {
+        color: white;
+}
+
+/* h2 {
+        color: #5a89c5;
+} */
+
+.main-width{
+        width: 1400px;
+        max-width: 95%;
+        margin: 0 auto;
+        font-size: 50px;
+}
+
+footer{
+        font-size: 30px;
+        position: center;
+        bottom: 0;
+        width: 100%;
+        margin-top: auto;
+        /* background-color:#414073; */
+        /* padding: 15px; */
+        margin-top: auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+.hero{
+        height: 100%;
+        width: 100%;
+        min-height: 100vh;
+        background: radial-gradient(#41658a, 20%, #414073);
+        position: relative;
+}
+
+.hero header .logo h2 a{
+        display: #4c3957;
+        font-size: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+}
+
+.hero header {
+        /* margin-top: 10%; */
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px, 0 30px;
+}
+
+nav ul li {
+        list-style: none;
+        display:  inline-block;
+}
+
+nav ul li a {
+        text-decoration: none;
+        color: white;
+        margin-left: 60px;
+        font-size: 20px;
+        font-weight: 600;
+        border-bottom: 2px solid transparent;
+        transition: .4s;
+}
+
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:hover{
+        border-bottom: 2px solid white;
+}
+
+nav ul li.active a{
+        border-bottom: 2px solid white;
+}
+
+nav ul li.btn a{
+        background: transparent;
+        color: white;
+        border: 1px solid #f5dca8;
+        padding: 9px 20px;
+        border-radius: 30px;
+        line-height: 1.4;
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 150px;
+}
+
+nav ul li.btn:hover a{
+        border: 1px solid white;
+        color: #4c3957;
+        background: white;
+        transition: .4s;
+}
+
+.content{
+        padding-top: 140px;
+}
+
+.content .main-width{
+        position: relative;
+        z-index: 2;
+        margin-bottom: 50px;
+}
+
+.content .main-text a{
+
+}
+
+.content .main-width h6{
+        font-size: 25px;
+        font-weight: 400;
+        color: white;
+        margin-bottom: 40px;
+}
+
+.content .main-width h1{
+        font-size: 100px;
+        line-height: 1;
+        color: white;
+        margin: 0px, 0px, 45px;
+        font-family: 'Permanent Marker', cursive;
+}
+
+.content .main-text h3{
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+}
+
+.content .main-text p{
+        max-width: 100%;
+        width: 480px;
+        color: white;
+        line-height: 1.8;
+        font-size: 25px;
+        margin-bottom: 50px;
+}
+
+.content .main-text a{
+        cursor: pointer;
+        display: inline-block;
+        text-decoration: none;
+        color: #4c3957;
+        background: white;
+        border: 1px, solid, white;
+        padding: 9px 25px;
+        line-height: 1.4;
+        border-radius: 30px;
+        font-size: 25px;
+        font-weight: 500;
+}
+
+.content .main-text a:hover{
+        transform: scale(1.2);
+        border: 1px solid #41658a;
+        background: transparent;
+        color: white;
+        transition: .4s;
+}
+
+ .content .main-text a.cta{
+        border: 1px solid #41658a;
+        color: white;
+        background: transparent;
+        margin-left: 20px;
+}
+
+
+
+.content .main-text a.cta i{
+        margin-right: 12px;
+}
+
+.content .main-text a.cta:hover{
+        color: #4c3957;
+        background: white;
+        border: 1px solid white;
+        transition: .4s;
+} 
+
+.image{
+        position: absolute;
+        width: 100%;
+        height: 85%;
+        /* padding-bottom: 1%; */
+        right: 0;
+        bottom: 0;
+        /* padding-right: 15%; */
+        text-align: right;
+} 
+
+.logoart img{
+        position: absolute;
+        /* margin-top: 5spx; */
+        height: 120px;
+        width: 120px;
+}
+
+
+
+/* .logo{
+        position: absolute;
+        margin-top: 5px;
+        height: 60px;
+        width: 80px;
+} */
+
+/* .image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* This ensures the image covers the entire container without distortion */
+        /* top: 0;
+        left: 0; */
+    /* }  */
+    
+
+
+.image img{
+        height: 90%;
+}
+
+
+    
+    .section-p1{
+        padding: 40px 80px;
+        padding-bottom: 100px;
+    }
+
+    #feature{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    #feature .box{
+        margin: 10px;
+        border: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 45%;
+        height: 10%;
+        text-align: center;
+        /* padding-top: 50px; */
+        padding: 25px 15px;
+        box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+        border: 1px solid #cce7d0;
+    }
+
+    .box img {
+        width: 100%; /* Ensure the image fills the entire box without distortion */
+        height: 100%; /* Ensure the image fills the entire box without distortion */
+        object-fit: cover; /* Ensure the image covers the entire box without distortion */
+    }
+    
+    #feature .box h2{
+        font-size: large;
+        display: inline-block;
+        padding: 9px 8px 6px 8px;
+        line-height: 1;
+        border-radius: 4px;
+        background-color: grey;
+    }
+    
+    #feature .box:first-child{
+        /* background-image: url(gamescreen1.png); */
+        background-color: transparent;
+    }
+    
+    #feature .box:nth-child(2){
+        /* background-image: url(gamescreen2.png); */
+        background-color: transparent;
+    }
+    
+    #feature .box:nth-child(3){
+        /* background-image: url(gamescreen3.png); */
+        background-color: transparent;
+    }
+
+    #feature .box:nth-child(4){
+        /* background-image: url(gamescreen3.png); */
+        background-color: transparent;
+    }
+
+    .video {
+        padding-top: 10%;
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+      } 
+
+      .nav-branding{
+        width: 10%;
+        height: 10%;
+        /* font-size: 2rem; */
+        /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+        /* position: fixed; */
+    }
